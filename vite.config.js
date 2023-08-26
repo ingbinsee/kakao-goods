@@ -6,7 +6,7 @@ import {resolve} from 'node:path';
 const idDev = env.NODE_ENV === 'development';
 
 export default defineConfig({
-  base: '/kakao-goods/',
+  // base: '/kakao-goods/',
   plugins: [react()],
   css: {
     devSourcemap: true,
